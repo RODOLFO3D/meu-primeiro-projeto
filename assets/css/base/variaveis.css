@@ -1,0 +1,17 @@
+:root {
+    /*Cores primarias*/
+    --branco: #ffffff;
+    --azul: #23a4cb;
+    --verde: #65b434;
+    --cinza: #adadad;
+    --preto:#000000;
+
+    --cor--titulo--secao:#23a4cb;
+
+    --verde--form--sucesso:#25c467;
+    --vermelho--form--erro:#e84938;
+
+    --bg--faq--button:#ffffff;
+    --cinza--faq--content:#808080;
+    
+}

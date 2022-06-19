@@ -1,0 +1,166 @@
+.contato{
+    align-items: center;
+    background-image: linear-gradient(to right, var(--azul) , var(--verde));
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+    padding: .9rem;
+}
+
+/* Inicio links para contato*/
+.contato__link{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+}
+
+.contato__link--item{
+    display: flex;
+    flex-direction: column;
+    margin: 1.7rem;
+}
+
+#link--img{
+    width: 35px;
+}
+
+.contato__link--titulo{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3rem;
+    margin: .8rem 0 .8rem;
+}
+
+.contato__link--descricao{
+    color: var(--preto);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+/*Fim links para contato*/
+
+/*Formulario*/
+
+.contato__formulario{
+    background: var(--branco);
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px var(--preto);
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 1.7rem;
+}
+
+.contato__formulario--titulo{
+    color: var(--cinza);
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+.form__control{
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form__control label{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    margin: 5px 0 5px 0;
+}
+
+.form__control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 7px;
+    width: 97%;
+}
+
+.form__control i{
+    position: absolute;
+    right: 1px;
+    top: 34px;
+    visibility: hidden;
+}
+
+.form__control small{
+    bottom:0;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.messagem{
+    margin-top: 15px;
+}
+
+textarea{
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    resize: none;
+    width: 97%;
+}
+
+form button{
+    align-self:flex-end;
+    background: var(--verde);
+    border:0;
+    color: var(--branco);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    outline: none;
+    padding: .7rem;
+    width: 100px;
+}
+
+/*Mensagens de erro e sucesso do formulario*/
+
+/*Modificacoes das bordas e icones em caso de erro ou sucesso*/
+.form__control.success input{
+    border-color: var(--verde--form--sucesso);
+}
+
+.form__control.error input{
+    border-color: var(--vermelho--form--erro);
+}
+
+.form__control.success i.fa-circle-check{
+    color: var(--verde--form--sucesso);
+    visibility: visible;
+}
+
+.form__control.error i.fa-circle-xmark{
+    color: var(--vermelho--form--erro);
+    visibility: visible;
+}
+
+/*css da mensagem em caso de erro*/
+.form-control.error small{
+    color: var(--vermelho--form--erro);
+    visibility: visible;
+}
+/*Fim dos modificadores de erro e sucesso*/
+
+
+/*Media query*/
+
+@media screen and(max-width: 375px){
+    .contato__formulario{
+        border-radius: 4px;
+        height: 70%;
+        min-width: 300px;
+        padding: 1.4rem;
+    }
+}

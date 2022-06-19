@@ -1,0 +1,13 @@
+.conteudo__titulo{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.conteudo__descricao{
+  background-color: blue;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+

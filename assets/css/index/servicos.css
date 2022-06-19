@@ -1,0 +1,94 @@
+.servicos__titulo{
+    color: var(--azul);
+    font-family: "Raleway", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.servicos__container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.servicos__card{
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px var(--preto);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-top: 20px;
+    transition: 0.4s;
+    width: 270px;
+}
+
+.card-1{
+    margin-left: 0;
+}
+
+.card__header img{
+    width: 100%;
+    border-radius:20px 20px 0 0;
+}
+
+.card__body {
+    align-items: center;
+    background-color: var(--branco);
+    height: 100%;
+    text-align: center; 
+}
+
+.card__titulo{
+    color: var(--azul);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    margin: .4rem .4rem;
+}
+
+.card__descricao{
+    color: var(--preto);
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.card__btn{
+    background-color: var(--azul);
+	border: none;
+    border-radius:0 0 20px 20px;
+	color: var(--branco);
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-size: .9rem;
+	font-weight: bold;
+	padding: .5rem ;
+	transition: 0.3s;
+	width: 100%;
+}
+
+.servicos__card:hover{
+    box-shadow: 2px 5px 7px var(--preto);
+    margin-top: -5px;
+}
+
+.card__btn:hover{
+    background-color: #0b7aa7;
+}
+
+@media screen and (max-width:426px){
+    .servicos__card{
+        margin-left: 0;
+    }
+}

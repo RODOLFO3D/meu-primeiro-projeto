@@ -1,0 +1,47 @@
+.beneficios__titulo {
+  color: var(--azul);
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.beneficios {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.beneficios__item {
+  align-items: center;
+  background-image: linear-gradient(to right, var(--azul) , rgb(44, 191, 254) );
+  border-radius: 35px 5px 35px 5px;
+  height: 260px;
+  margin-top: 1.7rem;
+  padding: .7rem;
+  width: 250px;
+}
+
+.beneficios__icone {
+  margin-bottom: 0.8rem;
+  padding: 0.2rem;
+  width: 30%;
+}
+
+.beneficios__titulo {
+  color: var(--branco);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+}
+
+.beneficios__descricao {
+  color: var(--branco);
+  font-family: "Poppins", sans-serif;
+  font-size: .5 rem;
+  line-height: 1.4rem;
+}

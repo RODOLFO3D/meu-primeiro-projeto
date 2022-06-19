@@ -1,0 +1,69 @@
+.banner{
+	align-items: center;
+    background: url('../../img/imagens/sofa-cinza.jpg') no-repeat center / cover;
+	background-color: var(--azul);
+	display:flex;
+	flex-direction: column;
+	height: calc(100vh - 80px);
+	justify-content: center;
+	width: 100%;
+}
+
+.banner__sobre{
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+	max-width: 700px;
+}
+
+.banner__titulo {
+	color: var(--branco);
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 3.2rem;
+	margin-bottom: 3%;
+	text-shadow: 2px 2px 9px #000305;
+}
+
+.banner__descricao {
+	color: var(--branco);
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	margin-bottom: 3.75rem;
+	text-align: center;
+	text-shadow: 3px 7px 15px #000305;
+}
+
+/*Botão de orçamento*/
+
+.banner--btnOrcamento {
+	background-color: var(--azul);
+	border: none;
+	border-radius:25px;
+	box-shadow: 3px 7px 15px #000305;
+	color:white;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+	padding: .7rem ;
+	
+}
+
+@keyframes animabtn{
+	0%{
+		transform: scale(1);
+	}
+
+	100%{
+		transform: scale(1.05)
+	}
+}
+
+.banner--btnOrcamento:hover{
+	animation-name: animabtn;
+	animation-direction: alternate;
+	animation-duration: .4s;
+	animation-iteration-count:4;
+	animation-timing-function: ease-in-out;
+}
