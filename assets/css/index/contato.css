@@ -147,7 +147,7 @@ form button{
 }
 
 /*css da mensagem em caso de erro*/
-.form-control.error small{
+.form__control.error small{
     color: var(--vermelho--form--erro);
     visibility: visible;
 }
